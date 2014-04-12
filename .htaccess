@@ -1,0 +1,5 @@
+AddType "text/html; charset=UTF-8" html
+RewriteEngine on
+
+RewriteRule ^listar-amigos$ amigo.php?rt=listarAmigos [L]
+RewriteRule ^sortear-amigo$ amigo.php?rt=sortearAmigo [L]

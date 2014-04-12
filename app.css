@@ -1,0 +1,41 @@
+@font-face{font-family:'MyriadPro';src:url('fonts/myriadpro-regular.eot');src:url('fonts/myriadpro-regular.eot?#iefix') format('embedded-opentype'),url('fonts/myriadpro-regular.woff') format('woff'),url('fonts/myriadpro-regular.ttf') format('truetype'),url('fonts/myriadpro-regular.svg#myriadpro-regular') format('svg');font-weight:normal;font-style:normal;}
+
+body{
+  font-family: 'MyriadPro';
+  background: #242526;
+  text-align: center;
+}
+
+h1{
+  color: #fff;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+}
+
+ul > li{
+  border: 1px solid #000;
+  display: inline-block;
+  margin: 20px;
+  background: #1d1d1d;
+  padding: 10px;
+  cursor: pointer;
+}
+
+ul > li:hover{
+  background: #242526;
+}
+
+ul > li span{
+  font-size: 20px;
+  color: #eee;
+  text-shadow: 0 0 1px #000;
+}
+
+ul > li img{
+  vertical-align: middle;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+}
